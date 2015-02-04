@@ -34,10 +34,10 @@
 		D438065C19096051004414D7 /* MiBeaconTrilateration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiBeaconTrilateration.h; path = MiBeaconTrilaterationDemo/MiBeaconTrilateration.h; sourceTree = SOURCE_ROOT; };
 		D438065D19096051004414D7 /* MiBeaconTrilateration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiBeaconTrilateration.m; path = MiBeaconTrilaterationDemo/MiBeaconTrilateration.m; sourceTree = SOURCE_ROOT; };
 		D43806601909606D004414D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MiBeaconTrilaterationDemo/main.m; sourceTree = SOURCE_ROOT; };
-		D43806611909606D004414D7 /* MiBeaconTrilaterationDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MiBeaconTrilaterationDemo-Info.plist"; path = "MiBeaconTrilaterationDemo/MiBeaconTrilaterationDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
-		D43806621909606D004414D7 /* MiBeaconTrilaterationDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MiBeaconTrilaterationDemo-Prefix.pch"; path = "MiBeaconTrilaterationDemo/MiBeaconTrilaterationDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D43806611909606D004414D7 /* ShennektTrilateration-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ShennektTrilateration-Info.plist"; path = "MiBeaconTrilaterationDemo/ShennektTrilateration-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D43806621909606D004414D7 /* ShennektTrilateration-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ShennektTrilateration-Prefix.pch"; path = "MiBeaconTrilaterationDemo/ShennektTrilateration-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		D438066619096074004414D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MiBeaconTrilaterationDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		D5D740B8188D1EA90080AFDA /* MiBeaconTrilaterationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiBeaconTrilaterationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D740B8188D1EA90080AFDA /* ShennektTrilateration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShennektTrilateration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D740BB188D1EA90080AFDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5D740BD188D1EA90080AFDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D5D740BF188D1EA90080AFDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -77,7 +77,7 @@
 		D5D740B9188D1EA90080AFDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5D740B8188D1EA90080AFDA /* MiBeaconTrilaterationDemo.app */,
+				D5D740B8188D1EA90080AFDA /* ShennektTrilateration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,8 +114,8 @@
 			children = (
 				D438066519096074004414D7 /* InfoPlist.strings */,
 				D43806601909606D004414D7 /* main.m */,
-				D43806611909606D004414D7 /* MiBeaconTrilaterationDemo-Info.plist */,
-				D43806621909606D004414D7 /* MiBeaconTrilaterationDemo-Prefix.pch */,
+				D43806611909606D004414D7 /* ShennektTrilateration-Info.plist */,
+				D43806621909606D004414D7 /* ShennektTrilateration-Prefix.pch */,
 				E0AEA75818AD1DDF00750AC1 /* icon58.png */,
 				E0AEA75A18AD1DDF00750AC1 /* icon80.png */,
 				E0AEA75B18AD1DDF00750AC1 /* icon120.png */,
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5D740B7188D1EA90080AFDA /* MiBeaconTrilaterationDemo */ = {
+		D5D740B7188D1EA90080AFDA /* ShennektTrilateration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5D740EA188D1EA90080AFDA /* Build configuration list for PBXNativeTarget "MiBeaconTrilaterationDemo" */;
+			buildConfigurationList = D5D740EA188D1EA90080AFDA /* Build configuration list for PBXNativeTarget "ShennektTrilateration" */;
 			buildPhases = (
 				D5D740B4188D1EA90080AFDA /* Sources */,
 				D5D740B5188D1EA90080AFDA /* Frameworks */,
@@ -149,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = MiBeaconTrilaterationDemo;
+			name = ShennektTrilateration;
 			productName = iBeaconMonitor;
-			productReference = D5D740B8188D1EA90080AFDA /* MiBeaconTrilaterationDemo.app */;
+			productReference = D5D740B8188D1EA90080AFDA /* ShennektTrilateration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5D740B3188D1EA90080AFDA /* Build configuration list for PBXProject "MiBeaconTrilaterationDemo" */;
+			buildConfigurationList = D5D740B3188D1EA90080AFDA /* Build configuration list for PBXProject "ShennektTrilateration" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5D740B7188D1EA90080AFDA /* MiBeaconTrilaterationDemo */,
+				D5D740B7188D1EA90080AFDA /* ShennektTrilateration */,
 			);
 		};
 /* End PBXProject section */
@@ -315,10 +315,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MiBeaconTrilaterationDemo/MiBeaconTrilaterationDemo-Prefix.pch";
-				INFOPLIST_FILE = "MiBeaconTrilaterationDemo/MiBeaconTrilaterationDemo-Info.plist";
+				GCC_PREFIX_HEADER = "MiBeaconTrilaterationDemo/ShennektTrilateration-Prefix.pch";
+				INFOPLIST_FILE = "MiBeaconTrilaterationDemo/ShennektTrilateration-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = MiBeaconTrilaterationDemo;
+				PRODUCT_NAME = ShennektTrilateration;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -328,10 +328,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MiBeaconTrilaterationDemo/MiBeaconTrilaterationDemo-Prefix.pch";
-				INFOPLIST_FILE = "MiBeaconTrilaterationDemo/MiBeaconTrilaterationDemo-Info.plist";
+				GCC_PREFIX_HEADER = "MiBeaconTrilaterationDemo/ShennektTrilateration-Prefix.pch";
+				INFOPLIST_FILE = "MiBeaconTrilaterationDemo/ShennektTrilateration-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = MiBeaconTrilaterationDemo;
+				PRODUCT_NAME = ShennektTrilateration;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -340,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5D740B3188D1EA90080AFDA /* Build configuration list for PBXProject "MiBeaconTrilaterationDemo" */ = {
+		D5D740B3188D1EA90080AFDA /* Build configuration list for PBXProject "ShennektTrilateration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5D740E8188D1EA90080AFDA /* Debug */,
@@ -349,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5D740EA188D1EA90080AFDA /* Build configuration list for PBXNativeTarget "MiBeaconTrilaterationDemo" */ = {
+		D5D740EA188D1EA90080AFDA /* Build configuration list for PBXNativeTarget "ShennektTrilateration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5D740EB188D1EA90080AFDA /* Debug */,

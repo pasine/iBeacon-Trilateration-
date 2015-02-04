@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D5D740B7188D1EA90080AFDA"
-               BuildableName = "MiBeaconTrilaterationDemo.app"
-               BlueprintName = "MiBeaconTrilaterationDemo"
-               ReferencedContainer = "container:MiBeaconTrilaterationDemo.xcodeproj">
+               BuildableName = "ShennektTrilateration.app"
+               BlueprintName = "ShennektTrilateration"
+               ReferencedContainer = "container:ShennektTrilateration.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "D5D740D8188D1EA90080AFDA"
                BuildableName = "MiBeaconTrilaterationDemoTests.xctest"
                BlueprintName = "MiBeaconTrilaterationDemoTests"
-               ReferencedContainer = "container:MiBeaconTrilaterationDemo.xcodeproj">
+               ReferencedContainer = "container:ShennektTrilateration.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "D5D740D8188D1EA90080AFDA"
                BuildableName = "MiBeaconTrilaterationDemoTests.xctest"
                BlueprintName = "MiBeaconTrilaterationDemoTests"
-               ReferencedContainer = "container:MiBeaconTrilaterationDemo.xcodeproj">
+               ReferencedContainer = "container:ShennektTrilateration.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5D740B7188D1EA90080AFDA"
-            BuildableName = "MiBeaconTrilaterationDemo.app"
-            BlueprintName = "MiBeaconTrilaterationDemo"
-            ReferencedContainer = "container:MiBeaconTrilaterationDemo.xcodeproj">
+            BuildableName = "ShennektTrilateration.app"
+            BlueprintName = "ShennektTrilateration"
+            ReferencedContainer = "container:ShennektTrilateration.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5D740B7188D1EA90080AFDA"
-            BuildableName = "MiBeaconTrilaterationDemo.app"
-            BlueprintName = "MiBeaconTrilaterationDemo"
-            ReferencedContainer = "container:MiBeaconTrilaterationDemo.xcodeproj">
+            BuildableName = "ShennektTrilateration.app"
+            BlueprintName = "ShennektTrilateration"
+            ReferencedContainer = "container:ShennektTrilateration.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5D740B7188D1EA90080AFDA"
-            BuildableName = "MiBeaconTrilaterationDemo.app"
-            BlueprintName = "MiBeaconTrilaterationDemo"
-            ReferencedContainer = "container:MiBeaconTrilaterationDemo.xcodeproj">
+            BuildableName = "ShennektTrilateration.app"
+            BlueprintName = "ShennektTrilateration"
+            ReferencedContainer = "container:ShennektTrilateration.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

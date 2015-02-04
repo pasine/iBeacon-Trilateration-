@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>58C6A70C-A696-4E32-8341-9BBC03210215</string>
+	<string>D4A015A8-89D8-4B80-A975-3E7BB8D34908</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MiBeaconTrilaterationDemo</string>
+	<string>ShennektTrilateration</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>640A8181471B808847913109DDEAA506D26C3387</key>
-		<string>https://github.com/MatVre/MiBeaconTrilaterationDemo.git</string>
+		<key>FA3CD14FE2439BAE4730E3372E5C05E6C347C7F7</key>
+		<string>https://github.com/Shennekt/iBeacon-Trilateration-.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MiBeaconTrilaterationDemo.xcodeproj</string>
+	<string>ShennektTrilateration.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>640A8181471B808847913109DDEAA506D26C3387</key>
+		<key>FA3CD14FE2439BAE4730E3372E5C05E6C347C7F7</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/MatVre/MiBeaconTrilaterationDemo.git</string>
+	<string>https://github.com/Shennekt/iBeacon-Trilateration-.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>640A8181471B808847913109DDEAA506D26C3387</string>
+	<string>FA3CD14FE2439BAE4730E3372E5C05E6C347C7F7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>640A8181471B808847913109DDEAA506D26C3387</string>
+			<string>FA3CD14FE2439BAE4730E3372E5C05E6C347C7F7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ShennektTrilateration</string>
 		</dict>

@@ -9,13 +9,13 @@
 	</array>
 	<key>8</key>
 	<array>
-		<integer>8</integer>
+		<integer>4</integer>
 		<integer>0</integer>
 	</array>
 	<key>9</key>
 	<array>
+		<integer>2</integer>
 		<integer>4</integer>
-		<integer>8</integer>
 	</array>
 </dict>
 </plist>
