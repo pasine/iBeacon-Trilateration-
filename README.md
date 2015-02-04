@@ -1,12 +1,12 @@
 Shennekt iBeacon Trilateration Demo
 ===================================
 
-Built by Farrukh Jadoon
+Farrukh Jadoon
 Release date (v1.0): Feb 3, 2015
 
->Patched for iOS 8 Core Location compatibility
->Fixed the corrupted Demo test files
->Added the info.plist parameter for NSLocationAlwaysUsageDescription for iOS 8 Location support. 
+-Patched for iOS 8 Core Location compatibility
+-Fixed the corrupted Demo test files
+-Added the info.plist parameter for NSLocationAlwaysUsageDescription for iOS 8 Location support. 
 
 
 
@@ -28,7 +28,7 @@ Set the iBeacons minor ID as the keys (at least 3) and planar coordinates (X, Y)
     }];
 
 
-Credits:
+>Credits:
 
-Mathijs Vreeman
-Wojciech Borowicz
+>Mathijs Vreeman,
+>Wojciech Borowicz
