@@ -26,6 +26,19 @@
 #import "MiBeaconTrilateration.h"
 
 @implementation MiBeaconTrilateration
+{
+@private
+    NSDictionary* beaconCoordinates;
+}
+
+
+- (id)initWitBeacons:(NSDictionary *)coordinates {
+    self = [super init];
+    if(self) {
+        beaconCoordinates = coordinates;
+    }
+    return self;
+}
 
 - (void)trilaterateWithBeacons:(NSArray *)beacons done:(void (^)(NSString *error, NSArray *coordinates))doneBlock
 {
@@ -103,10 +116,6 @@
         // PROCEED TRILATERATION
         
         // get coordinates for each beacon, minor is used to identify
-        
-        NSBundle *bundle = [NSBundle mainBundle];
-        NSString *plistPath = [bundle pathForResource:@"beaconCoordinates" ofType:@"plist"];
-        NSDictionary *beaconCoordinates = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
         
         NSArray *beaconLocation1 = [beaconCoordinates objectForKey:[NSString stringWithFormat:@"%d", [beacon1.minor intValue]]];
         NSArray *beaconLocation2 = [beaconCoordinates objectForKey:[NSString stringWithFormat:@"%d", [beacon2.minor intValue]]];

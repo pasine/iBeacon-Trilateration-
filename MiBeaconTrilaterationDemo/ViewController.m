@@ -50,7 +50,11 @@
     // start ranging ID
     [locationManager startRangingBeaconsInRegion:beaconRegion];
     
-    MiBeaconTrilaterator = [[MiBeaconTrilateration alloc] init];
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *plistPath = [bundle pathForResource:@"beaconCoordinates" ofType:@"plist"];
+    NSDictionary *coordinates = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
+    
+    MiBeaconTrilaterator = [[MiBeaconTrilateration alloc] initWitBeacons:coordinates];
     
     // misc UI settings
     [beaconGrid.layer setCornerRadius:10];
@@ -71,6 +75,11 @@
         NSBundle *bundle = [NSBundle mainBundle];
         NSString *plistPath = [bundle pathForResource:@"beaconCoordinates" ofType:@"plist"];
         beaconCoordinates = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
+
+        // the plist file can be easily moved to a remote location
+//        NSURL *plistURL = [NSURL URLWithString:@"http://example.com/beaconCoordinates.plist"];
+//        beaconCoordinates = [[NSDictionary alloc] initWithContentsOfURL:plistURL];
+        
     }
     
     // determine max coordinate to calculate scalefactor

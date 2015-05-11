@@ -28,6 +28,7 @@
 
 @interface MiBeaconTrilateration : NSObject
 
+- (id)initWitBeacons:(NSDictionary *)coordinates;
 - (void)trilaterateWithBeacons:(NSArray *)beacons done:(void (^)(NSString *error, NSArray *coordinates))doneBlock;
 
 @end
